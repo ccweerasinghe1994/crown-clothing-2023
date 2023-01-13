@@ -1,20 +1,11 @@
 import { Routes, Route, Outlet } from 'react-router-dom';
 import Home from './routes/home/home.component';
 import React from 'react';
+import Navigation from './routes/navigation/navigation.component';
 
 interface ShopProps {}
 const Shop: React.FC<ShopProps> = () => {
   return <div>This is the Shop Page</div>;
-};
-
-interface NavigationProps {}
-const Navigation: React.FC<NavigationProps> = () => {
-  return (
-    <>
-      <div>Navigation Page</div>
-      <Outlet />
-    </>
-  );
 };
 
 const App = () => {
