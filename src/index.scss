@@ -8,8 +8,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 *,
 *::after,
 *::before {
+  box-sizing: border-box;
+  // for debugging
   /* border: 1px solid red; */
 }
